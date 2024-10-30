@@ -34,7 +34,7 @@ public class SearchController {
     private final ClientMapper clientMapper;
 
     /**
-     * Энпоинт поиска клиентов старше переданной даты рождения.
+     * Эндпоинт поиска клиентов старше переданной даты рождения.
      * @param date дата рождения.
      * @param page номер страницы
      * @param size размер страницы
@@ -58,7 +58,7 @@ public class SearchController {
     }
 
     /**
-     * Энпоинт поиска клиентов по номеру телефона.
+     * Эндпоинт поиска клиентов по номеру телефона.
      * @param phone номер телефона.
      * @return ответ с объектом клиента.
      */
@@ -71,7 +71,7 @@ public class SearchController {
     }
 
     /**
-     * Энпоинт поиска клиентов по имени.
+     * Эндпоинт поиска клиентов по имени.
      * @param name имя клиента.
      * @param page номер страницы.
      * @param size размер страницы.
@@ -97,7 +97,7 @@ public class SearchController {
     }
 
     /**
-     * Энпоинт поиска клиентов по email.
+     * Эндпоинт поиска клиентов по email.
      * @param email адрес email.
      * @return ответ с объектом клиента.
      */

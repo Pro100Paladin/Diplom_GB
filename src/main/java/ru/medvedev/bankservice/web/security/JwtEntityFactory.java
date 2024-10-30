@@ -13,7 +13,7 @@ public class JwtEntityFactory {
 
     /**
      * Метод преобразующий объект модели в JwtEntity,
-     * т.е. тот объект, который будет проверять Spring Security.
+     * т.е. Тот объект, который будет проверять Spring Security.
      *
      * @param client объект модели.
      * @return объект проверки для Spring Security.

@@ -32,7 +32,7 @@ public class ClientController {
     private final ClientMapper clientMapper;
 
     /**
-     * Энпоинт получения всех клиентов.
+     * Эндпоинт получения всех клиентов.
      * @return ответ со списком клиентов.
      */
     @GetMapping("/")
@@ -46,7 +46,7 @@ public class ClientController {
     }
 
     /**
-     * Энпоинт получения клиента по id.
+     * Эндпоинт получения клиента по id.
      * @param clientId идентификатор пользователя.
      * @return ответ с найденным клиентом.
      */
@@ -59,7 +59,7 @@ public class ClientController {
     }
 
     /**
-     * Энпоинт добавления номера телефона клиента.
+     * Эндпоинт добавления номера телефона клиента.
      * @param clientId идентификатор клиента.
      * @param contactRequest номер телефона.
      * @return ответ с обновленным клиентом.
@@ -76,7 +76,7 @@ public class ClientController {
     }
 
     /**
-     * Энпоинт добавления email.
+     * Эндпоинт добавления email.
      * @param clientId идентификатор клиента.
      * @param contactRequest адрес email.
      * @return ответ с обновленным клиентом.
@@ -93,7 +93,7 @@ public class ClientController {
     }
 
     /**
-     * Энпоинт удаления номера телефона.
+     * Эндпоинт удаления номера телефона.
      * @param clientId идентификатор клиента.
      * @param contactRequest номер телефона.
      * @return ответ с обновленным клиентом.
@@ -110,7 +110,7 @@ public class ClientController {
     }
 
     /**
-     * Энпоинт удаления email
+     * Эндпоинт удаления email
      * @param clientId идентификатор клиента.
      * @param contactRequest адрес emil.
      * @return ответ с обновленным клиентом.
