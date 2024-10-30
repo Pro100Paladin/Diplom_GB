@@ -1,0 +1,14 @@
+ru.medvedev.bankservice
+ru.medvedev.bankservice.config
+ru.medvedev.bankservice.model
+ru.medvedev.bankservice.model.exception
+ru.medvedev.bankservice.repository
+ru.medvedev.bankservice.service
+ru.medvedev.bankservice.service.impl
+ru.medvedev.bankservice.web.controller
+ru.medvedev.bankservice.web.dto
+ru.medvedev.bankservice.web.mapper
+ru.medvedev.bankservice.web.model
+ru.medvedev.bankservice.web.security
+ru.medvedev.bankservice.web.security.expression
+ru.medvedev.bankservice.web.security.props
