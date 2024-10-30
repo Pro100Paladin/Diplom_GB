@@ -39,7 +39,7 @@ public class ApplicationConfig {
     private final JwtTokenProvider tokenProvider;
 
     /**
-     * Хэширование паролей при прохождении аутентификации.
+     * Хеширование паролей при прохождении аутентификации.
      *
      * @return бин PasswordEncoder.
      */
